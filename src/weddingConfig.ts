@@ -10,9 +10,9 @@ export const WEDDING = {
     name: 'Dineth',
     family: 'Jinasekara',
   },
-  // Displayed as "Ishara & Dineth" across the invitation
-  coupleNames: 'Ishara & Dineth',
-  hashtag: '#Ishara&Dineth2026',
+  // Displayed as "Dineth & Ishara" across the invitation
+  coupleNames: 'Dineth & Ishara',
+  hashtag: '#Dineth&Ishara2026',
 
   dateISO: '2026-12-10',
   dayName: 'Thursday',

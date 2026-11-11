@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <Heart className="h-8 w-8 text-[#D4AF37] opacity-90 fill-transparent" strokeWidth={1} />
-              <span className="text-4xl lg:text-5xl font-display text-[#D4AF37] drop-shadow-sm" style={{ fontFamily: "'Great Vibes', cursive" }}>{WEDDING.bride.name[0]} &amp; {WEDDING.groom.name[0]}</span>
+              <span className="text-4xl lg:text-5xl font-display text-[#D4AF37] drop-shadow-sm" style={{ fontFamily: "'Great Vibes', cursive" }}>{WEDDING.groom.name[0]} &amp; {WEDDING.bride.name[0]}</span>
             </div>
             <p className="text-white/70 leading-[1.8] font-serif text-justify tracking-wide text-sm md:text-base pr-4">
               Thank you for visiting our wedding website and being part of our love story. The honor of your presence would mean the world to us.

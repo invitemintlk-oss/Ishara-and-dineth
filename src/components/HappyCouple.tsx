@@ -66,11 +66,11 @@ export const HappyCouple: React.FC = () => {
 
             <div className="space-y-2">
               <h3 className="text-6xl md:text-7xl text-white drop-shadow-lg" style={{ fontFamily: "'Great Vibes', cursive" }}>
-                {WEDDING.bride.name}
+                {WEDDING.groom.name}
               </h3>
-              <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-white/60 font-sans">Beloved daughter of</p>
+              <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-white/60 font-sans">Beloved son of</p>
               <p className="font-serif text-lg md:text-xl text-[#D4AF37] tracking-wide">
-                Mr. &amp; Mrs. {WEDDING.bride.family}
+                Mr. &amp; Mrs. {WEDDING.groom.family}
               </p>
             </div>
 
@@ -82,11 +82,11 @@ export const HappyCouple: React.FC = () => {
 
             <div className="space-y-2">
               <h3 className="text-6xl md:text-7xl text-white drop-shadow-lg" style={{ fontFamily: "'Great Vibes', cursive" }}>
-                {WEDDING.groom.name}
+                {WEDDING.bride.name}
               </h3>
-              <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-white/60 font-sans">Beloved son of</p>
+              <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-white/60 font-sans">Beloved daughter of</p>
               <p className="font-serif text-lg md:text-xl text-[#D4AF37] tracking-wide">
-                Mr. &amp; Mrs. {WEDDING.groom.family}
+                Mr. &amp; Mrs. {WEDDING.bride.family}
               </p>
             </div>
           </motion.div>

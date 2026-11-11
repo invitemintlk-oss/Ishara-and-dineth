@@ -57,9 +57,9 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
             className="text-6xl sm:text-7xl md:text-8xl text-black drop-shadow-[0_2px_10px_rgba(255,255,255,0.9)] leading-tight"
             style={{ fontFamily: "'Great Vibes', cursive" }}
           >
-            {WEDDING.bride.name}
-            <span className="block text-4xl sm:text-5xl text-[#D4AF37] my-1">&amp;</span>
             {WEDDING.groom.name}
+            <span className="block text-4xl sm:text-5xl text-[#D4AF37] my-1">&amp;</span>
+            {WEDDING.bride.name}
           </h1>
           <div className="flex items-center justify-center gap-3 pt-2">
             <span className="h-px w-10 bg-gradient-to-r from-transparent to-[#D4AF37]" />

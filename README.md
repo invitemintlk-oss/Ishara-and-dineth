@@ -1,4 +1,4 @@
-# Ishara & Dineth – Wedding Invitation
+# Dineth & Ishara – Wedding Invitation
 
 Thursday, 10th December 2026 · 9:30 AM – 4:00 PM · Poruwa Ceremony 10:00 AM
 Lavenro Garden Hotel, Kosgama

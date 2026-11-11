@@ -43,11 +43,11 @@ export const HeroContent: React.FC = () => {
           transition={{ duration: 1.5, delay: 0.5, ease: 'easeOut' }}
         >
           <h1 className="text-6xl sm:text-7xl md:text-8xl text-black drop-shadow-[0_2px_10px_rgba(255,255,255,0.9)] leading-tight" style={{ fontFamily: "'Great Vibes', cursive" }}>
-            {WEDDING.bride.name}
+            {WEDDING.groom.name}
           </h1>
           <span className="text-4xl sm:text-5xl font-serif italic text-[#D4AF37] drop-shadow-lg">&amp;</span>
           <h1 className="text-6xl sm:text-7xl md:text-8xl text-black drop-shadow-[0_2px_10px_rgba(255,255,255,0.9)] leading-tight" style={{ fontFamily: "'Great Vibes', cursive" }}>
-            {WEDDING.groom.name}
+            {WEDDING.bride.name}
           </h1>
 
           <p className="text-sm sm:text-lg md:text-xl font-sans tracking-[0.1em] sm:tracking-[0.15em] text-black uppercase mt-8 sm:mt-10 drop-shadow-md">
