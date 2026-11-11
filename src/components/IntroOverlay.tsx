@@ -29,7 +29,7 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
         animate={opening ? { scale: 1.35, opacity: 0 } : { scale: 1, opacity: 1 }}
         transition={opening ? { duration: 0.9, ease: 'easeIn' } : { duration: 6, ease: 'easeOut' }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/10 to-[#022c22]/90 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/20 to-white/70 pointer-events-none" />
 
       {/* Gold frame */}
       <motion.div
@@ -50,11 +50,11 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
           transition={{ duration: 1.2, delay: 0.6 }}
           className="space-y-3"
         >
-          <p className="text-[10px] sm:text-xs uppercase tracking-[0.45em] text-white/90 font-sans drop-shadow">
+          <p className="text-[10px] sm:text-xs uppercase tracking-[0.45em] text-black/90 font-sans drop-shadow">
             The Wedding Of
           </p>
           <h1
-            className="text-6xl sm:text-7xl md:text-8xl text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.6)] leading-tight"
+            className="text-6xl sm:text-7xl md:text-8xl text-black drop-shadow-[0_2px_10px_rgba(255,255,255,0.9)] leading-tight"
             style={{ fontFamily: "'Great Vibes', cursive" }}
           >
             {WEDDING.bride.name}
@@ -66,7 +66,7 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
             <Heart className="w-4 h-4 text-[#D4AF37]" strokeWidth={1.5} />
             <span className="h-px w-10 bg-gradient-to-l from-transparent to-[#D4AF37]" />
           </div>
-          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-white font-sans drop-shadow">
+          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-black font-sans drop-shadow">
             {WEDDING.dateShort}
           </p>
         </motion.div>
@@ -79,10 +79,10 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
         >
           {displayName && (
             <div className="space-y-1">
-              <p className="text-[10px] sm:text-xs uppercase tracking-[0.35em] text-white/80 font-sans">
+              <p className="text-[10px] sm:text-xs uppercase tracking-[0.35em] text-black/80 font-sans">
                 Specially for
               </p>
-              <p className="font-serif text-2xl sm:text-3xl text-[#F3E5AB] drop-shadow-lg">{displayName}</p>
+              <p className="font-serif text-2xl sm:text-3xl text-[#8B6914] drop-shadow-lg">{displayName}</p>
             </div>
           )}
           <button
