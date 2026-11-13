@@ -68,7 +68,7 @@ export const HeroContent: React.FC = () => {
           >
             <p className="font-serif text-sm sm:text-base text-black/90 leading-relaxed">
               We cordially invite{' '}
-              <span className="text-[#8B6914] text-lg sm:text-xl italic whitespace-nowrap">{displayName}</span>{' '}
+              <span className="text-[#7A1F2B] font-bold text-xl sm:text-2xl italic whitespace-nowrap">{displayName}</span>{' '}
               to celebrate our special day with us.
             </p>
           </motion.div>

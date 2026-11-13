@@ -79,10 +79,10 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ onEnter }) => {
         >
           {displayName && (
             <div className="space-y-1">
-              <p className="text-[10px] sm:text-xs uppercase tracking-[0.35em] text-black/80 font-sans">
+              <p className="text-[10px] sm:text-xs uppercase tracking-[0.35em] text-black font-semibold font-sans">
                 Specially for
               </p>
-              <p className="font-serif text-2xl sm:text-3xl text-[#8B6914] drop-shadow-lg">{displayName}</p>
+              <p className="font-serif font-bold text-3xl sm:text-4xl text-[#7A1F2B] drop-shadow-[0_2px_8px_rgba(255,255,255,0.95)]">{displayName}</p>
             </div>
           )}
           <button
